@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/katarti/python
