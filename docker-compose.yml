@@ -3,5 +3,4 @@ services:
   python:
     build:
       context: .
-      dockerfile: Dockerfile
-    image: ghcr.io/katarti/python
+    image: python-fedora:latest
