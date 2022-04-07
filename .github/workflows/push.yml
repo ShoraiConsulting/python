@@ -41,8 +41,8 @@ jobs:
 
       - name: Tag image
         run: |
-          docker tag python-fedora:latest ${DOCKER_IMAGE}:latest
-          docker tag python-fedora:latest ${DOCKER_IMAGE}:${{ github.run_number }}
+          docker tag python:latest ${DOCKER_IMAGE}:latest
+          docker tag python:latest ${DOCKER_IMAGE}:${{ github.run_number }}
 
       - name: Log into registry
         # This is where you will update the PAT to GITHUB_TOKEN

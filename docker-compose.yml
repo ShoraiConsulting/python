@@ -3,4 +3,4 @@ services:
   python:
     build:
       context: .
-    image: python-fedora:latest
+    image: python:latest
